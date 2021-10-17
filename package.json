@@ -1,0 +1,22 @@
+{
+  "name": "node-todo-list",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "t": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
